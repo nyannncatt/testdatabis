@@ -1,0 +1,53 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #C9DABF;
+}
+
+h2 {
+    text-align: center;
+    color: #5F6F65;
+}
+
+.login-container, table {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #9CA986;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.login-container form label, table th, table td {
+    color: #5F6F65;
+}
+
+button, input[type="submit"] {
+    background-color: #808D7C;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #808D7C;
+    padding: 8px;
+}
+
+th {
+    background-color: #5F6F65;
+    color: #C9DABF;
+}
+
+.error {
+    color: red;
+    font-size: 0.9em;
+}
